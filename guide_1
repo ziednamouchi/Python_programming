@@ -1,0 +1,104 @@
+Python guide part 1 published on cybrary.it
+link:https://www.cybrary.it/0p3n/python-guide-part/
+
+Python Guide
+
+Python is a programming language that lets you work quickly and integrate systems more effectively. The standard library of python has its documentation which is available, as it the case for tutorials and guides. The source code and installers are available for download for all versions. The latest version is Python 3.5.2.
+Running Python
+First Program
+
+
+-Python 3 Interactive Interpreter
+>>>print ('Hello world')
+Hello world
+>>>
+
+ 
+
+-Python Files
+print ('Hello world')
+#save as hello.py then type on the terminal python3 and path/of/the/python/file.py
+
+ 
+
+-On UNIX
+#!/usr/bin/python3
+print ('Hello world')
+
+Simple built-in data types
+
+booleans (which have the value True or False ). integers (whole numbers such as 42 and 100000000 ). floats (numbers with decimal points such as 3.14159 , or sometimes exponents like 1.0e8 , which means one multiplied by ten to the eighth power, or 100000000.0 ). strings (sequences of text characters).
+Variables, Names, and Objects
+
+-All is an object in Python; float, Booleans, data structures and functions also are implemented as an object.
+
+–Variable
+
+
+>>>a=7
+7
+>>>
+
+>>>type(a) #to know the type of anything
+<class 'int'>
+>>>int(98.8)#type conversion
+98
+>>>float('98')
+98.0
+
+–Name
+Must begin with a character, and you can within it digits and the underscore. Avoid this: _var1, 1var…
+Arithmetic Operators and Bases
+
+
+#Arithmetic Operators
+-Addition: +
+>>>5+3
+8
+>>>
+-Subtraction: -
+>>>5-3
+2
+>>>
+-Multiplication: *
+>>>5*3
+15
+>>>
+-Floating point division: /
+>>>5/3
+1.6666666666666667
+>>>
+-Integer division: //
+>>>5//3
+1
+>>>
+-Modulus: %
+>>>5%3
+2
+>>>
+-Exponentiation: **
+>>>5**3
+125
+>>>
+
+#Bases
+0b for binary
+0x for hex
+0o for octal
+
+>>>0b10
+2
+>>>
+
+Expressions
+
+-It’s like in the other languages:
+
+a+b
+a+=b
+a/=b
+‘a’+’b’
+
+With the same order of precedence.
+
+That’s all, and thanks! Comment below to ask me any questions or let me know how I can improve.
